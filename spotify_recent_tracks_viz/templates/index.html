@@ -1,0 +1,35 @@
+{% extends base %}
+
+
+{% block title %}Spotify Data Viz{% endblock %}
+
+{% block postamble %}
+    <style>
+        {% include 'styles.css' %}
+    </style>
+{% endblock %}
+
+{% block contents %}
+<header>
+    <div>
+        <span>Data Visualization of Recently Played Tracks</span>
+        
+        <span class="right"><img src="/spotify_viz/static/spotify_logo.png" /></span>
+        <span class="right" style="padding-right: 10px;">Data from: </span>
+    </div>
+</header>
+<br>
+<div style="padding-left: 30px;">
+    {{ super() }}
+</div>
+<div class="description">
+    <h2>Description</h2>
+    <p>
+        Visualization created as a personal project by Matt Dysart (Github link here), with the intention of discovering interesting trends in my
+        own personal listening habits as well as uncovering possible relationships between different Spotify audio features. Data is taken 
+        from my own recently played tracks on Spotify between the dates Novemeber 8, 2020 and November 21, 2020. All code is written in Python 
+        using the <a href="https://bokeh.org/">Bokeh</a> library. Disclaimer: all raw data is provided by the Spotify web API, and are not 
+        my own measurements.
+    </p>
+</div>
+{% endblock %}
