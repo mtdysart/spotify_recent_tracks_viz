@@ -1,1 +1,1 @@
-web: bokeh serve --port=$PORT --allow-websocket-origin=spotify_recent_tracks_viz.herokuapp.com --address=0.0.0.0 --use-xheaders spotify_recent_tracks_viz
+web: bokeh serve --port=$PORT --allow-websocket-origin=spotify-recent-tracks-viz.herokuapp.com --address=0.0.0.0 --use-xheaders spotify_recent_tracks_viz
