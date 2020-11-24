@@ -1,5 +1,5 @@
 # Spotify Data Visualization Web App
-* Deployed on Heroku. Link: https://spotify-recent-tracks-viz.herokuapp.com/
+* Deployed on Heroku (<a href=https://spotify-recent-tracks-viz.herokuapp.com/ target="_blank">Link</a>)
 * Interactive data visualization of my personal listening history on Spotify between Nov 8, 2020 and Nov 21, 2020 using Bokeh library in Python
 * Can be used to discover trends in my own listening habits as well as relationships between different track audio features 
 
